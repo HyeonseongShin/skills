@@ -1,5 +1,5 @@
 ---
-name: context-archive
+name: context-snapshot
 description: Summarizes the current conversation into a compact, token-efficient context snapshot. Use when the user asks to "save context", "summarize for a new session", or wants to carry key decisions and progress into a fresh chat.
 ---
 
