@@ -18,6 +18,18 @@ Runs a structured post-task retrospective once a task is complete. Probes for sk
 
 Triggers when a task is marked done, a `plan.md` is about to be deleted, or on explicit request.
 
+### [create-skill](./create-skill/SKILL.md)
+
+Guides the design and authoring of a new agent skill that conforms to the agentskills.io spec. Treats skill-writing as a design task — confirms what judgment the skill should encode before drafting, and checks the result against spec and existing-collection conventions.
+
+Triggers on requests like "make a skill", "create a skill for X", or "turn this workflow into a skill".
+
+### [clean-code](./clean-code/SKILL.md)
+
+Applies Clean Code judgment in real time while writing or refactoring: when to split a function, where to draw a class/file's SRP boundary, when a boolean flag argument means "two functions," and when duplicated code should be merged versus left alone.
+
+Triggers while actively writing or modifying code — not for standalone bug-hunting, security, or whole-repo over-engineering review (those belong to other skills).
+
 ### [context-snapshot](./context-snapshot/SKILL.md)
 
 Summarizes the current conversation into a compact, token-efficient context snapshot for carrying key decisions and progress into a fresh session. Outputs a structured Markdown summary (objective, decisions, constraints, status, references, glossary).
